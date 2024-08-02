@@ -51,7 +51,7 @@ h2 {
 .run-extra-container,
 .traning-section-container,
 .bmi-calculator-section,
-.our-team-container{
+.our-team-container {
   margin-top: 6rem;
 }
 
@@ -280,7 +280,7 @@ h2 {
   width: 50%;
 } */
 
-.bmi-calculator-input p{
+.bmi-calculator-input p {
   margin-bottom: 30px;
   margin-top: 10px;
 }
@@ -323,7 +323,7 @@ input {
   border: none;
 }
 
-.img-div img{
+.img-div img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
@@ -335,22 +335,76 @@ input {
   gap: 15px;
   margin-top: 80px;
   border-radius: 18px;
-background: rgba(255, 255, 255, 0.1);
-padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 6rem;
 }
 
-.img-text h4{
+.img-text h4 {
   color: var(--heading-color);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.img-div{
+.img-div {
   position: relative;
 }
 
-.img-text{
+.img-text {
   position: absolute;
   bottom: 14px;
   left: 23px;
+}
+
+/* footer container section  */
+
+footer{
+  padding: 4rem 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-container {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fitness-name h1 {
+  color: var(--btn-color);
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.fitness-option h4 {
+  color: var(--heading-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.fitness-option ul{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.fitness-option ul li{
+  list-style: none;
+}
+
+.fitness-option li a{
+  color: var(--paragraph-color);
+  text-decoration: none;
+}
+
+.hr-footer{
+  text-align: center;
+  color: var(--paragraph-color);
+}
+
+.hr-footer p{
+  margin-top: 20px;
+}
+
+.hr-footer hr{
+  border: 1px solid var(--paragraph-color);
 }
